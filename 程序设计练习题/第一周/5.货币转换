@@ -1,0 +1,12 @@
+#货币转换.py
+money = input()
+money += 'a'
+
+if money[0] == 'R':
+    #print( eval( money[ 3:-1 ] ) )
+    U = eval( money[ 3:-1 ] ) / 6.78
+    print( 'USD{:.2f}'.format(U) )
+
+if money[0] == 'U':
+    R = eval( money[ 3:-1 ] ) * 6.78
+    print( 'RMB{:.2f}'.format(R) )
