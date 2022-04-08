@@ -1,0 +1,12 @@
+#六边形绘制
+import turtle as t
+t.setup(650, 350, 200, 200)
+t.pensize(10)
+t.pencolor("black")
+
+for i in range(6):
+    t.fd(50)
+    t.left(60)
+
+t.done
+
