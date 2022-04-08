@@ -1,0 +1,13 @@
+#正方形绘制
+import turtle as t
+t.setup (650, 350,200,200)
+t.pensize(10)
+t.pencolor("black")
+t.fd(50)
+t.right(90)
+t.fd(50)
+t.right(90)
+t.fd(50)
+t.right(90)
+t.fd(50)
+#t.done
