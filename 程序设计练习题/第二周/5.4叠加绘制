@@ -1,0 +1,7 @@
+#叠加多边形
+import turtle as t
+t.pensize(5)
+for i in range(9):
+    t.left(80)
+    t.fd(100)
+t.done
